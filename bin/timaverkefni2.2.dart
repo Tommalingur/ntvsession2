@@ -33,8 +33,7 @@
   // Splitting a string is also possible with the .split.
   // Try it yourself.
 
-    String sentenceToSplit = "It's interesting isn't it?...the chandelier...it reminds me of mushroom soup";
-    String splitVariable = sentenceToSplit.split("...");
-    print(splitVariable);
+    String sentenceToSplit = "It's interesting, isn't it?...the chandelier...it reminds me of mushroom soup.";
+    print(sentenceToSplit.split('...'));
 
   }
